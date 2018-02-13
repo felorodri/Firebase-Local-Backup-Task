@@ -1,0 +1,14 @@
+{
+  "name": "firebase-automatic-backup-task",
+  "version": "0.0.0",
+  "description": "A nodeJS firebase automatic backup task for multiple Univalle projects",
+  "dependencies": {
+    "firebase": "^4.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Rodriguez",
+  "license": "MIT"
+}
