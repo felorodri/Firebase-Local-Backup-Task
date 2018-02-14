@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "A nodeJS firebase automatic backup task for multiple Univalle projects",
   "dependencies": {
-    "firebase": "^4.9.1"
+    "firebase-admin": "^5.8.2"
   },
   "devDependencies": {},
   "scripts": {

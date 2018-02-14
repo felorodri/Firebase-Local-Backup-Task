@@ -10,4 +10,16 @@ try {
 	process.exit(1);
 }
 
-console.log(config.projectsConfig);
+firebase.initializeApp(config.projectsConfig[0].firebaseConfig);
+
+
+
+
+
+
+
+
+
+// console.log(database);
+// console.log(config.projectsConfig[0].firebaseConfig);
+// process.exit(0);
