@@ -1,5 +1,5 @@
 // Variables initialization and dependencies
-var firebaseApps = [];
+// var firebaseApps = [];
 const admin = require("firebase-admin");
 const logger = require('./logger.js');
 
@@ -20,6 +20,7 @@ function appInitializer (item) {
 			  databaseURL: 'https://' + serviceAccount.project_id + '.firebaseio.com'
 			})]
 		)
+		console.log('Project ' + item.projectName + ' added to backup queue');
 	} catch (e) {
 		var logMessage = e.toString() + '\nProject ' + item.projectName + ' couldnt be added to the queue.';
 		logger.errorLogger(logMessage);
